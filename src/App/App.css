@@ -1,0 +1,52 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Imprima&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-sans h1,
+.font-sans p,
+.font-sans div {
+  font-family: "Imprima", sans-serif;
+}
+
+.calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #111827;
+  padding: 1rem;
+}
+
+.calculator-body {
+  width: 100%;
+  max-width: 24rem;
+  padding: 1rem;
+  background-color: #1f2937;
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.calculator-display {
+  background-color: #111827;
+  text-align: right;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  height: 6rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.display-text {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
