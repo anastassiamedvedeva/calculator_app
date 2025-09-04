@@ -4,4 +4,4 @@ Built using React, Typescript, and Tailwind CSS. Basic styling configured in Fig
 
 
 ## Deploy
-[[Netlify Deploy](https://reactcalculator-am.netlify.app/)]
+[Netlify Deploy(https://reactcalculator-am.netlify.app/)]
