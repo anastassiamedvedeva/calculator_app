@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 
 import './styles/tailwind.css'
 import './App/App.css'
-import './Button/Button.css'
 import './styles/styles.tsx'
+import './Button/Button.css'
 import App from './App/App.tsx'
 
 

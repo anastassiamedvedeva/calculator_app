@@ -89,28 +89,28 @@ const ButtonGrid: React.FC<ButtonGridProps> = ({
   onBackspace,
 }) => (
   <div className="grid grid-cols-4 gap-4">
-    <button className={`${clearClass} col-span-2`} onClick={onClear}>C</button>
-    <button className={backButtonClass} onClick={onBackspace}>←</button>
-    <button className={operatorClass} onClick={() => onOperator('/')}>÷</button>
+    <button className={`button ${clearClass} col-span-2`} onClick={onClear}>C</button>
+    <button className={`button ${backButtonClass}`} onClick={onBackspace}>←</button>
+    <button className={`button ${operatorClass}`} onClick={() => onOperator('/')}>÷</button>
 
-    <button className={digitClass} onClick={() => onDigit('7')}>7</button>
-    <button className={digitClass} onClick={() => onDigit('8')}>8</button>
-    <button className={digitClass} onClick={() => onDigit('9')}>9</button>
-    <button className={operatorClass} onClick={() => onOperator('*')}>×</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('7')}>7</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('8')}>8</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('9')}>9</button>
+    <button className={`button ${operatorClass}`} onClick={() => onOperator('*')}>×</button>
 
-    <button className={digitClass} onClick={() => onDigit('4')}>4</button>
-    <button className={digitClass} onClick={() => onDigit('5')}>5</button>
-    <button className={digitClass} onClick={() => onDigit('6')}>6</button>
-    <button className={operatorClass} onClick={() => onOperator('-')}>-</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('4')}>4</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('5')}>5</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('6')}>6</button>
+    <button className={`button ${operatorClass}`} onClick={() => onOperator('-')}>-</button>
 
-    <button className={digitClass} onClick={() => onDigit('1')}>1</button>
-    <button className={digitClass} onClick={() => onDigit('2')}>2</button>
-    <button className={digitClass} onClick={() => onDigit('3')}>3</button>
-    <button className={operatorClass} onClick={() => onOperator('+')}>+</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('1')}>1</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('2')}>2</button>
+    <button className={`button ${digitClass}`} onClick={() => onDigit('3')}>3</button>
+    <button className={`button ${operatorClass}`} onClick={() => onOperator('+')}>+</button>
 
-    <button className={`${digitClass} col-span-2`} onClick={() => onDigit('0')}>0</button>
-    <button className={digitClass} onClick={onDecimal}>.</button>
-    <button className={`${operatorClass} bg-[#DC3885]`} onClick={onEquals}>=</button>
+    <button className={`button ${digitClass} col-span-2`} onClick={() => onDigit('0')}>0</button>
+    <button className={`button ${digitClass}`} onClick={onDecimal}>.</button>
+    <button className={`button ${operatorClass} bg-[#DC3885]`} onClick={onEquals}>=</button>
   </div>
 );
 
